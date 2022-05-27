@@ -1,10 +1,13 @@
 {
     "cmake.configureOnOpen": false,
-    "python.defaultInterpreterPath": "/Users/joeyd/opt/anaconda3/envs/finance_data_crypto/bin/python",
-    "python.pythonPath": "/Users/joeyd/opt/anaconda3/envs/finance_data_crypto/bin/python",
-    // "python.testing.pytestArgs": [],
-    // "python.testing.pytestEnabled": true,
-    "python.analysis.extraPaths": [
+    "python.defaultInterpreterPath": "/Users/joeyd/opt/anaconda3/envs/gpsim/bin/python",
+    "python.pythonPath": "/Users/joeyd/opt/anaconda3/envs/gpsim/bin/python",
+    "python.testing.pytestArgs": [],
+    "python.testing.pytestEnabled": false,
+    "python.analysis.extraPaths": [ // The root folder should be Gember/GreenPoint
+        "${workspaceFolder}/simulation/",
+        "${workspaceFolder}/simulation/Observable/utils/",
+        "${workspaceFolder}/simulation/webSockets/"
     ],
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
