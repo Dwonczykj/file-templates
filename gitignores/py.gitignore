@@ -1,0 +1,18 @@
+*.env*
+*.log*
+
+*.git_old*
+
+# MacOS
+*.DS_Store
+
+# Samsung T5 - If pushing a repo stored on the Portable Samsung SSD
+._*
+
+# node
+node_modules
+
+# python
+
+*__pycache__*
+.pytest_cache*
