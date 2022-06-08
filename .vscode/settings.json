@@ -1,5 +1,12 @@
 {
     "cmake.configureOnOpen": false,
+    "files.exclude": {
+        "._*": true,
+        "**/._*": true,
+        "node_modules": true,
+        "**/node_modules": true,
+        "**/.pytest_cache": true
+    },
     "python.defaultInterpreterPath": "/Users/joeyd/opt/anaconda3/envs/gpsim/bin/python",
     "python.pythonPath": "/Users/joeyd/opt/anaconda3/envs/gpsim/bin/python",
     "python.testing.pytestArgs": [],
