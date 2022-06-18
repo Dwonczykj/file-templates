@@ -58,6 +58,7 @@ doc/api/
 
 
 # Flutter repo-specific
+.fvm/flutter_sdk
 /bin/cache/
 /bin/internal/bootstrap.bat
 /bin/internal/bootstrap.sh
